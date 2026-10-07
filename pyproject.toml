@@ -1,0 +1,16 @@
+[project]
+name = "rag-langchain"
+version = "0.1.0"
+description = "RAG de consola con LangChain, OpenAI y pgvector"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.2",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.6",
+    "langchain-postgres>=0.0.18",
+    "langchain-text-splitters>=1.1.2",
+    "psycopg[binary]>=3.3.6",
+    "pypdf>=6.19.0",
+    "python-dotenv>=1.2.3",
+]
